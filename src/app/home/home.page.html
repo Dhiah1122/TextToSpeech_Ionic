@@ -1,0 +1,17 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="tertiary">
+    <ion-title>
+      Text To Speach
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" >
+ 
+<br><br>
+<input type="text" [(ngModel)]="textTest" >
+<br><br>
+<input type="submit" value="Listen" (click)="Listen()">
+
+
+</ion-content>

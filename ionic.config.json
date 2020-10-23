@@ -1,0 +1,7 @@
+{
+  "name": "TextToSpeachIonic",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
